@@ -13,14 +13,16 @@ export default function Sidebar() {
       {/* Mobile Header */}
       <header className="fixed top-0 left-0 right-0 z-50 lg:hidden bg-black border-b border-gray-800">
         <div className="flex items-center justify-between px-3 py-4">
-          <Link 
-            href="/" 
+          <Link
+            href="/"
             className="flex items-center gap-3"
             onClick={() => setIsOpen(false)}
           >
-            <h1 className="text-white text-sm hover:text-gray-300 transition">Vinay Nain</h1>
+            <h1 className="text-white text-sm hover:text-gray-300 transition">
+              Vinay Nain
+            </h1>
           </Link>
-          
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="rounded-lg hover:bg-gray-800 text-white transition"
@@ -50,7 +52,10 @@ export default function Sidebar() {
         <div className="flex flex-col h-full p-3 pt-20 lg:pt-6">
           {/* Header - Desktop Only */}
           <div className="mb-8 hidden lg:block">
-            <Link href="/" className="flex items-center gap-3 mb-2 hover:opacity-80 transition">
+            <Link
+              href="/"
+              className="flex items-center gap-3 mb-2 hover:opacity-80 transition"
+            >
               <h1 className="text-white text-sm">Vinay Nain.</h1>
             </Link>
           </div>
@@ -93,7 +98,7 @@ export default function Sidebar() {
                 className="block py-2 rounded-lg hover:bg-gray-800 hover:text-white transition"
                 onClick={() => setIsOpen(false)}
               >
-Simon Says Game
+                Simon Says Game
               </Link>
               <Link
                 href="https://bbscosmetic.com/"
@@ -102,9 +107,8 @@ Simon Says Game
                 className="block py-2 rounded-lg hover:bg-gray-800 hover:text-white transition"
                 onClick={() => setIsOpen(false)}
               >
-BB Cosmetics
+                BB Cosmetics
               </Link>
-            
             </nav>
           </div>
 
@@ -147,11 +151,13 @@ BB Cosmetics
                 className="flex items-center gap-3 py-2 rounded-lg hover:bg-gray-800 hover:text-white transition"
                 onClick={() => setIsOpen(false)}
               >
-                <span className="text-gray-500"><Github size={12}/></span>
+                <span className="text-gray-500">
+                  <Github size={12} />
+                </span>
                 <span>Github</span>
               </Link>
               <Link
-                href="/resume.pdf"
+                href="/Vinay_Nain_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 py-2 rounded-lg hover:bg-gray-800 hover:text-white transition"

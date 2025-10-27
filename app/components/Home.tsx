@@ -108,7 +108,7 @@ export default function Home() {
         "GraphQL",
         "Storefront API",
       ],
-      bgImage: "/nikesbg.png",
+      bgImage: "/nikesbg.webp",
     },
     {
       title: "Ashpm",
@@ -117,7 +117,7 @@ export default function Home() {
       description:
         "Developed during internship at Quantum IT Innovation. Worked directly with client and BA team to deliver a custom business application using WordPress as the primary technology stack.",
       tech: ["WordPress", "PHP", "JavaScript", "CSS"],
-      bgImage: "/ashpm.png",
+      bgImage: "/ashpm.webp",
     },
     {
       title: "Swoley Gym",
@@ -126,7 +126,7 @@ export default function Home() {
       description:
         "A basic gym web application built while learning React. Features workout routines, exercises, and a clean, responsive interface showcasing fundamental React concepts and Tailwind styling.",
       tech: ["ReactJS", "Tailwind CSS", "JavaScript"],
-      bgImage: "/swoley.png",
+      bgImage: "/swoley.webp",
     },
   ];
 
@@ -137,7 +137,7 @@ export default function Home() {
         {/* Profile Image */}
         <div className="relative w-16 h-16 rounded-full overflow-hidden mb-6">
           <Image
-            src="/profile.jpg"
+            src="/profile.webp"
             alt="Profile"
             fill
             className="object-cover"
