@@ -108,7 +108,7 @@ export default function Home() {
         "GraphQL",
         "Storefront API",
       ],
-      bgImage: "/nikesbg.webp",
+      bgImage: "/nikesBg.webp",
     },
     {
       title: "Ashpm",
