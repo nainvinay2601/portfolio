@@ -54,43 +54,44 @@ export default function Home() {
   };
 
   const experiences = [
-    {
-      company: "Mydearnikes",
-      role: "Full Stack Developer & UI/UX Designer",
-      year: "2025-Present",
-      logo: "/juice.png",
-      details: [
-        "Built full-stack e-commerce platform with 90+ Lighthouse score",
-        "Integrated Shopify Storefront API with GraphQL",
-        "Designed responsive UI/UX from scratch",
-      ],
-      tech: "Next.js, TypeScript, Tailwind, Shopify, GraphQL",
-    },
-    {
-      company: "Quantum IT Innovation",
-      role: "Frontend Developer Intern",
-      year: "2024-2025",
-      logo: "https://quantumitinnovation.com/_next/image?url=%2Fassets%2Flogo-white.png&w=256&q=75",
-      details: [
-        "Developed responsive web applications using React and Next.js",
-        "Collaborated with design team to implement pixel-perfect UIs",
-        "Improved page load performance by 40%",
-      ],
-      tech: "React, Next.js, JavaScript, Tailwind CSS",
-    },
-    {
-      company: "BirthVenue",
-      role: "Frontend Developer & UI/UX Designer Intern",
-      year: "2023-2024",
-      logo: "https://images.yourstory.com/cs/images/companies/birthvenue-1615811417548.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
-      details: [
-        "Designed and developed landing pages and dashboards",
-        "Created design system and component library",
-        "Worked with cross-functional teams on product features",
-      ],
-      tech: "React, JavaScript, CSS, Figma",
-    },
-  ];
+  {
+    company: "Mydearnikes",
+    role: "Full Stack Developer & UI/UX Designer",
+    year: "Aug 2025 - Present",
+    logo: "/juice.png",
+    details: [
+      "Developed full-stack e-commerce platform with 150+ products, improving Lighthouse performance from 45 to 70 (56% improvement)",
+      "Integrated Shopify Storefront API with GraphQL for real-time inventory management",
+      "Designed responsive UI/UX from scratch in Figma for 10+ page templates with Framer Motion animations",
+      "Optimized Core Web Vitals through code splitting and lazy loading, improving LCP by 40%",
+    ],
+    tech: "Next.js, TypeScript, Tailwind CSS, Shopify Storefront API, GraphQL, Framer Motion",
+  },
+  {
+    company: "Quantum IT Innovation",
+    role: "Frontend Developer Intern",
+    year: "Nov 2024 - May 2025",
+    logo: "https://quantumitinnovation.com/_next/image?url=%2Fassets%2Flogo-white.png&w=256&q=75",
+    details: [
+      "Delivered 4 custom frontend projects on WordPress, Shopify, WIX, and Webflow with 100% on-time delivery",
+      "Managed client communication for 3+ concurrent projects, coordinating with 5+ team members",
+      "Resolved 15+ critical production issues including PHP conflicts and plugin vulnerabilities with zero downtime",
+    ],
+    tech: "WordPress, Shopify, WIX, Webflow, HTML, CSS, JavaScript",
+  },
+  {
+    company: "BirthVenue",
+    role: "Frontend Developer & UI/UX Designer Intern",
+    year: "Jan 2024 - Jun 2024",
+    logo: "https://images.yourstory.com/cs/images/companies/birthvenue-1615811417548.jpg?fm=auto&ar=1%3A1&mode=fill&fill=solid&fill-color=fff&format=auto&w=384&q=75",
+    details: [
+      "Designed mobile application interface and 20+ presentation deck layouts using Figma",
+      "Enhanced user experience by 30% through iterative design improvements across 5+ device types",
+      "Developed responsive website using ReactJS ensuring seamless performance across all devices",
+    ],
+    tech: "React.js, Figma, HTML, CSS, JavaScript",
+  },
+];
 
   const projects = [
     {
