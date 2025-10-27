@@ -62,7 +62,7 @@ export default function Sidebar() {
 
           {/* Projects Section */}
           <div className="mb-8">
-            <h3 className="text-[#c77dff] text-xs mb-1">Projects</h3>
+            <h3 className="text-gray-400  text-xs mb-1">Projects</h3>
             <nav className="text-sm tracking-tight font-mono">
               <Link
                 href="https://mydearnikes.com"
@@ -114,7 +114,7 @@ export default function Sidebar() {
 
           {/* Contact Section */}
           <div className="mb-8">
-            <h3 className="text-[#c77dff] text-xs mb-1">Contact</h3>
+            <h3 className="text-gray-400 text-xs mb-1">Contact</h3>
             <nav className="font-mono text-sm">
               <Link
                 href="mailto:dev.vinaynain@gmail.com"

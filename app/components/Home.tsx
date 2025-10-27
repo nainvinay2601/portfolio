@@ -185,12 +185,12 @@ export default function Home() {
           onClick={() => setIsExperienceSectionOpen(!isExperienceSectionOpen)}
           className="w-full flex items-center justify-between py-4 hover:bg-gray-900/30 transition-colors group"
         >
-          <h2 className="text-sm text-gray-500 font-mono group-hover:text-gray-300 transition-colors tracking-tight">
+          <h2 className="text-sm text-white font-mono group-hover:text-gray-300 transition-colors tracking-tight">
             Work Experience
           </h2>
           <ChevronDown
             size={16}
-            className={`text-gray-500 transition-transform ${
+            className={`text-white transition-transform ${
               isExperienceSectionOpen ? "rotate-180" : ""
             }`}
           />
@@ -312,7 +312,7 @@ export default function Home() {
                   {project.description.length > 120 && (
                     <button
                       onClick={() => toggleProjectDescription(index)}
-                      className="ml-2 text-[#c77dff] hover:text-[#b76eef] transition-colors inline"
+                      className="ml-2 text-gray-500 hover:text-[#b76eef] transition-colors inline"
                     >
                       {isProjectExpanded(index) ? "Read less" : "Read more"}
                     </button>
@@ -362,17 +362,17 @@ export default function Home() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="mailto:dev.vinaynain@gmail.com"
-              className="px-6 py-3 text-white rounded-lg font-mono text-sm border-gray-800 border hover:border-[#c77dff] transition-colors inline-flex items-center gap-2"
+              className="px-3 py-2 text-white rounded-lg font-mono text-sm border-gray-800 border hover:border-[#c77dff] transition-colors inline-flex items-center gap-2"
             >
-               <Mail size={16}/>
+               <Mail size={12}/>
               Email Me
             </Link>
             
             <Link
               href="https://wa.me/919517930608"
-              className="px-6 py-3 text-white border border-gray-800 rounded-lg font-mono text-sm hover:border-[#c77dff] transition-colors inline-flex items-center gap-2"
+              className="px-3  text-white border border-gray-800 rounded-lg font-mono text-sm hover:border-[#c77dff] transition-colors inline-flex items-center gap-2"
             >
-              <Phone size={16}/> +91 9517930608
+              <Phone size={12}/> +91 9517930608
             </Link>
           </div>
         </div>
